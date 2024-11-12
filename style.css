@@ -116,6 +116,18 @@ section h2 {
     filter: invert(1); /* Membuat ikon menjadi putih pada latar biru */
 }
 
+/* Mengatur ukuran dan tampilan logo GitHub */
+.social-icon {
+    width: 24px; /* Ukuran logo */
+    height: 24px;
+    vertical-align: middle; /* Agar logo sejajar dengan teks */
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Efek zoom saat di-hover */
+}
+
 footer {
     text-align: center;
     padding: 1rem;

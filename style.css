@@ -96,13 +96,34 @@ section h2 {
     margin-top: 1rem;
 }
 
+/* Mengatur ukuran default untuk ikon sosial media */
 .social-links a {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border-radius: 50%;
     transition: transform 0.3s;
+}
+
+/* Ukuran khusus untuk LinkedIn */
+.linkedin-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Ukuran khusus untuk Mail (persegi panjang) */
+.mail-icon img {
+    width: 28px; /* Lebar lebih besar untuk mengakomodasi bentuk persegi panjang */
+    height: 20px;
+}
+
+/* Ukuran khusus untuk Instagram */
+.instagram-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Ukuran khusus untuk Line */
+.line-icon img {
+    width: 24px;
+    height: 24px;
 }
 
 .social-links a:hover {
@@ -123,7 +144,7 @@ section h2 {
     transition: transform 0.3s ease;
 }
 
-.social-icon:hover {
+.social-links a:hover {
     transform: scale(1.1); /* Efek zoom saat di-hover */
 }
 

@@ -5,27 +5,43 @@
 }
 
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
     color: #333;
-    background: #f2f2f2;
+    line-height: 1.6;
     padding: 20px;
 }
 
 header {
-    background: #4a90e2;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
     color: #fff;
     padding: 2rem;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 12px;
+    margin-bottom: 2rem;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
+    margin-top: 1rem;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.profile-photo img {
+    width: 100%;
+    height: auto;
 }
 
 section {
@@ -33,54 +49,69 @@ section {
     padding: 2rem;
     margin: 1rem auto;
     max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    font-size: 1.8rem;
-    color: #4a90e2;
+    font-size: 2rem;
+    color: #ff6b6b;
     margin-bottom: 1rem;
 }
 
-#about p,
-#portfolio p {
-    font-size: 1rem;
-    color: #666;
+#about p, #portfolio p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#social {
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-top: 1rem;
 }
 
 .social-links a {
-    text-decoration: none;
-    color: #fff;
-    background: #4a90e2;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: background 0.3s ease;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ff6b6b;
+    border-radius: 50%;
+    transition: transform 0.3s;
 }
 
 .social-links a:hover {
-    background: #357abd;
+    transform: scale(1.1);
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+    filter: invert(1); /* Agar ikon menjadi putih pada background berwarna */
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    margin-top: 2rem;
     color: #555;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
 }
 
 a {
-    color: #4a90e2;
+    color: #ff6b6b;
     text-decoration: none;
 }
 
 a:hover {
-    color: #357abd;
+    color: #fa5252;
 }

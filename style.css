@@ -100,7 +100,7 @@ section h2 {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: #4a6b82; /* Biru netral untuk ikon media sosial */
+    background-color: transparent;
     border-radius: 50%;
     transition: transform 0.3s;
 }
@@ -113,7 +113,6 @@ section h2 {
     width: 24px;
     height: 24px;
     margin: 8px;
-    filter: invert(1); /* Membuat ikon menjadi putih pada latar biru */
 }
 
 /* Mengatur ukuran dan tampilan logo GitHub */

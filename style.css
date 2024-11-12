@@ -104,20 +104,20 @@ section h2 {
 
 /* Ukuran khusus untuk LinkedIn */
 .linkedin-icon img {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
 }
 
 /* Ukuran khusus untuk Mail (persegi panjang) */
 .mail-icon img {
-    width: 28px; /* Lebar lebih besar untuk mengakomodasi bentuk persegi panjang */
-    height: 20px;
+    width: 40px; /* Lebar lebih besar untuk mengakomodasi bentuk persegi panjang */
+    height: 30px;
 }
 
 /* Ukuran khusus untuk Instagram */
 .instagram-icon img {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
 }
 
 /* Ukuran khusus untuk Line */

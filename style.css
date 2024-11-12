@@ -110,8 +110,9 @@ section h2 {
 
 /* Ukuran khusus untuk Mail (persegi panjang) */
 .mail-icon img {
-    width: 40px; /* Lebar lebih besar untuk mengakomodasi bentuk persegi panjang */
-    height: 30px;
+    width: 40px !important; /* Lebar lebih besar untuk mengakomodasi bentuk persegi panjang */
+    height: 30px !important;
+    object-fit: contain;
 }
 
 /* Ukuran khusus untuk Instagram */
